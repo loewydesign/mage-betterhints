@@ -1,0 +1,29 @@
+<config>
+	<modules>
+		<Loewy_Betterhints>
+			<version>1.0.0</version>
+		</Loewy_Betterhints>
+	</modules>
+
+	<global>
+		<models>
+			<loewy_betterhints>
+				<class>Loewy_Betterhints_Model</class>
+			</loewy_betterhints>
+		</models>
+	</global>
+
+	<frontend>
+		<events>
+			<core_block_abstract_to_html_after>
+				<observers>
+					<loewy_betterhints>
+						<type>singleton</type>
+						<class>loewy_betterhints/observer</class>
+						<method>core_block_abstract_to_html_after</method>
+					</loewy_betterhints>
+				</observers>
+			</core_block_abstract_to_html_after>
+		</events>
+	</frontend>
+</config>

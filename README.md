@@ -1,2 +1,2 @@
-# mage-betterhints
-Better template hints for Magento.
+# Loewy_Betterhints
+Adds better template hints to Magento pages in the form of HTML comments.

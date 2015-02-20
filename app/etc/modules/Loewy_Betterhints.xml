@@ -1,0 +1,8 @@
+<config>
+	<modules>
+		<Loewy_Betterhints>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Loewy_Betterhints>
+	</modules>
+</config>

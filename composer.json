@@ -1,0 +1,10 @@
+{
+	"name": "loewydesign/mage-betterhints",
+	"license": "GPLv3",
+	"type": "magento-module",
+	"description": "Better template hints for Magento.",
+	"keywords": ["magento"],
+	"require": {
+		"magento-hackathon/magento-composer-installer": "*"
+	}
+}
